@@ -8,8 +8,21 @@ def chatbot():
             print("chatbot: Language, please!")
         elif user_input in ["english", "tamil"]:
             print("chatbot: Snowman, Lover, Whenever.")
-        elif user_input == "that's great choice":  # Proper string comparison
+        elif user_input == "that's great choice":  
             print("chatbot: Thank you! Enjoy your song.")
         else:
             print("chatbot: Let me know if you need help.")
 chatbot()
+
+output:
+chatbot: Greetings! How can I help you?
+you: hello
+chatbot: Hello! It's a great day.
+you: suggest me a song
+chatbot: Language, please!
+you: english
+chatbot: Snowman, Lover, Whenever.
+you: that's great choice
+chatbot: Thank you! Enjoy your song.
+you: help me 
+chatbot: Let me know if you need help.
